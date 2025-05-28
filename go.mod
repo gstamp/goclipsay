@@ -1,6 +1,8 @@
 module github.com/gstamp/goclipsay
 
-go 1.22.3
+go 1.23.0
+
+toolchain go1.24.3
 
 require (
 	github.com/faiface/beep v1.1.0
@@ -15,4 +17,5 @@ require (
 	golang.org/x/image v0.16.0 // indirect
 	golang.org/x/mobile v0.0.0-20240506190922-a1a533f289d3 // indirect
 	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/time v0.11.0 // indirect
 )
